@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pypi_observer"
+version = "0.0.1"
+description = ""
+authors = ["xnuinside <xnuinside@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyTelegramBotAPI = "^3.7.2"
+google-cloud-bigquery = "^1.26.0"
+requests = "^2.24.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
